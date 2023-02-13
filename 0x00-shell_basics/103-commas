@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -am | sort -V
+ls -amp | sort -V
