@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aclt | grep ^- | head -n 10
+ls -t -p | grep -v / | head -n 10
