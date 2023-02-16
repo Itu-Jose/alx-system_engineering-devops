@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -T 'home' /etc/passwd | sort -i
+sort -i /etc/passwd
