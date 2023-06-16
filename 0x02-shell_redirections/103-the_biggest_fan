@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d '-' -s -f 1 | sort | uniq -c | tr -s '[:blank:]' | sort -r | head -10 | cut -d ' ' -f 3 | sort
+tr -s '[:blank:]' | cut -d '-' -s -f 1 | sort | uniq -c | tr -s '[:blank:]' | sort -r | head -10 | cut -d ' ' -f 3 | sort
